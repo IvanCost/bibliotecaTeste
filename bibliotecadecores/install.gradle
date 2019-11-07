@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.bibliotecateste.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.example.bibliotecadecores' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'bibliotecadecores' // THE NAME OF YOUR MODULE
+
+                name 'bibliotecaTeste' // YOUR LIBRARY NAME
+                description 'A collections of methods to work with Date objects.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/AntonioCappiello/date-utils' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'IvanCost' //YOUR ID
+                        name 'Ivan Costa' //YOUR NAME
+                        email 'ivancosta@usp.br' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/IvanCost/bibliotecaTeste.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/IvanCost/bibliotecaTeste.git' // YOUR GIT REPO
+                    url 'https://github.com/IvanCost/bibliotecaTeste' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}

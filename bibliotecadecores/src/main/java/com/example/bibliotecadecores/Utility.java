@@ -2,7 +2,7 @@ package com.example.bibliotecadecores;
 
 import androidx.annotation.ColorInt;
 
-class Utility{
+public class Utility{
 
     public static int color = 0;
 
