@@ -19,6 +19,12 @@ public class HomeLibrary extends LinearLayout {
     public HomeLibrary (Context context, Attributes attrs){
         super(context, (AttributeSet) attrs);
     }
+
+    public static int color = 0;
+
+    public void setColor (@ColorInt int colorID){
+        color = colorID;
+    }
 }
 
 
