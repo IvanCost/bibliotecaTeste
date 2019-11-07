@@ -1,4 +1,4 @@
-package com.example.libarycores;
+package com.example.bibliotecadecores;
 
 import androidx.annotation.ColorInt;
 
