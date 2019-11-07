@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "brandprimary">#C5D291</color>;
+    <color name = "brandsecondary">#242523</color>;
+    <color name = "supportsuccess">#73E87F</color>;
+    <color name = "supportalert">#E4EF62</color>;
+    <color name = "supporterror">#DD1E41</color>;
+    <color name = "supportinfo">#75C5FF</color>;
+    <color name = "uibackground">#FFFFFF</color>;
+    <color name = "uititle">#7C7979</color>;
+    <color name = "uisubtitle">#5F5656</color>;
+    <color name = "uitext">#2E322C</color>;
+    <color name = "uitextinverse">#F6F6F6</color>;
+    <color name = "uibackgroundinverse">#605D5D</color>;
+    <color name = "uipanel">#F7DADA</color>;
+</resources>
