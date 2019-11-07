@@ -3,7 +3,8 @@
     package="com.example.bibliotecadecores">
 
     <application>
-        <activity android:name=".HomeLibrary"></activity>
+        <activity android:name=".UtilityDois"></activity>
+        <activity android:name=".HomeLibrary" />
     </application>
 
 </manifest>
